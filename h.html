@@ -5,8 +5,55 @@
     <title>Title</title>
 </head>
 <body>
-<title>my first picture</title>
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/44325fae-2585-4934-9c5f-a2d300aad276/dexln4e-d8b160d7-d89a-4c1b-8f03-7e24d01011d5.png/v1/fill/w_1192,h_670,q_70,strp/cooler_master_argb_rainbow_wallpaper_by_dremuler_dexln4e-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzQ0MzI1ZmFlLTI1ODUtNDkzNC05YzVmLWEyZDMwMGFhZDI3NlwvZGV4bG40ZS1kOGIxNjBkNy1kODlhLTRjMWItOGYwMy03ZTI0ZDAxMDExZDUucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uYxpX31PJVdhmf0dalQFJYtBgPNBx2sXwaKW4ng6Kls" alt="first picture">
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+    <h1>Добро пожаловать на наш сайт!</h1>
+    <p>Здесь вы найдете множество полезной информации.</p>
+</main>
+<p> html - задает корневой элемент HTML-документа.
+head - содержит метаданные документа, такие как заголовок страницы, ссылки на внешние таблицы стилей, скрипты и т.д.
+    title - определяет заголовок документа, который отображается в верхней части окна браузера и во вкладке страницы.
+        body - определяет основное содержимое страницы, которое отображается в окне браузера.
+        h1 - создает заголовок первого уровня.
+        p - определяет параграф текста.
+        a - создает ссылку на другую страницу, документ или ресурс.
+        img - вставляет изображение на страницу.
+        ul - создает ненумерованный список.
+        ol - создает нумерованный список.
+        li - определяет элемент списка.
+        table - создает таблицу на странице.
+        tr - определяет строку таблицы.
+        td - определяет ячейку таблицы.
+        form - создает форму для ввода данных пользователем.
+        input - создает поле ввода, такое как текстовое поле или кнопка.
+        button - создает кнопку для отправки формы или выполнения других действий.</p>
+<form action="process-form.php" method="post">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="message" required></textarea><br>
+
+    <input type="submit" value="Отправить">
+</form>
+
+
+<footer class="footer">
+    <p>© 2023 Наша компания. Все права защищены.</p>
+</footer>
+
 
 </body>
 </html>
